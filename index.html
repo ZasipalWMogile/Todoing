@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todoing</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <div class="TextMain">Task list</div>
+ 
+        <div class="container">
+            <div>
+                <div class="TxtAdd">Add Task</div>
+
+                <div class="addLabel">
+                    <form id="form">
+                        <div >
+                            <input type="text" id="InpTaskTxt" placeholder="enter your task...">
+                        </div>
+
+                        <button type="button" id="btnSubm">
+                            <img src="./images/plus-lg.svg">
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="containerTasks">
+            <ul id="taskList" class="listElem" >
+                <li id="emptyList">
+                    <div class="emptyList">List is Empty</div>
+                </li>
+
+                <li class="taskItem">
+                    <span class="taskItemTitle">Task1</span>
+                    
+                    <div class="taskBtns">
+                        <button type="button" class="btnComplite">
+                            <img src="./images/check-lg.svg">
+                        </button>
+
+                        <button type="button" class="btnDel">
+                            <img src="./images/x-lg.svg">
+                        </button>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

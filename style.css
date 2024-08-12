@@ -1,0 +1,139 @@
+.listElem{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.complited{
+    text-decoration: line-through;
+}
+
+.taskItem {
+    display: none;
+    width: 170px;
+    justify-content: space-between;
+    margin: 10px;
+    background-color: rgba(248, 248, 255, 0.5);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+html{
+    margin: auto;
+    height: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(152deg, rgba(255,255,255,1) 4%, rgba(238,196,149,1) 29%, rgba(171,55,118,1) 61%, rgba(36,0,0,1) 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.TextMain{
+    font-family: monospace;
+    font-size: xx-large;
+}
+
+.container{
+    display: flex;
+    margin: auto;
+}
+
+.TxtAdd{
+    font-family: monospace;
+    font-size: large;
+    padding-top: 22px;
+    padding-bottom: 2px;
+}
+
+body{
+    width: 200px;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(248,248,255, 0.5);
+    padding: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+
+.taskItemTitle{
+    font-family: monospace;
+    font-size: x-large;
+}
+
+.containerTasks{
+    display: flex;
+
+}
+
+.taskBtns{
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.btnComplite{
+    border-radius: 10px;
+    background-color: #C71585;
+    border-color: #C71585;
+    margin: 2px;
+}
+
+.btnDel{
+    border-radius: 10px;
+    background-color: #C71585;
+    border-color: #C71585;
+    margin: 2px;
+}
+
+.btnDel:hover,
+.btnComplite:hover{
+    background-color: #ab3776;
+    border-color: #ab3776;
+}
+
+.btnComplite:active,
+.btnDel:active{
+    background-color: #8f3164;
+    border-color: #8f3164;
+}
+
+#btnSubm{
+    border-radius: 10px;
+    background-color: white;
+    border-color: white;
+    margin: 3px;
+    width: 180px;
+}
+
+#btnSubm:hover{
+    background-color: #F5F5F5;
+    border-color: #F5F5F5;
+}
+
+#btnSubm:active{
+    background-color: #dec8d3;
+    border-color: #dec8d3;
+}
+
+#InpTaskTxt{
+    width: 170px;
+    padding: 5px;
+    border-radius: 8px;
+    border-color: aliceblue;
+    font-size: large;
+    font-family: monospace;
+}
+
+.display{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+.emptyList{
+    font-family: monospace;
+    text-align: center;
+}
